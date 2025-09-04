@@ -1,0 +1,55 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+h2 {
+  color: #333;
+}
+
+/* Portfolio form */
+form input, form textarea, form button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* To-Do */
+#taskInput, #addBtn {
+  padding: 10px;
+  margin: 5px;
+}
+#taskList li {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+/* Product Listing */
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
